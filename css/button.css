@@ -1,0 +1,22 @@
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 25px;
+  color: white;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  background-color: transparent;
+  text-decoration: none; }
+
+.btn:hover {
+  color: #cccccc;
+  border: 2px solid #cccccc; }
+
+.btn-sec {
+  background-color: #ff9b51;
+  border: 2px solid #ff9b51; }
+
+.btn-sec:hover {
+  background-color: #fc8933;
+  border: 2px solid #fc8933; }

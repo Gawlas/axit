@@ -17,6 +17,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# WebStorm project files
+.idea
+
 # =========================
 # Operating System Files
 # =========================
@@ -45,3 +48,6 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Node
+node_modules

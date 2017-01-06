@@ -1,0 +1,28 @@
+/* FOOTER */
+.footer {
+  background-color: #000000;
+  text-align: center;
+  padding: 20px 20px; }
+
+.footer--copy {
+  font-size: 12px;
+  color: #cdcdcd; }
+
+.footer--copy-text {
+  margin: 0;
+  margin-top: 10px; }
+
+.footer--social-media {
+  padding: 0px; }
+
+.footer--social-media-item {
+  padding: 10px;
+  color: #ffffff; }
+
+.footer--social-media-item:hover {
+  color: #aaaaaa; }
+
+@media screen and (max-width: 576px) {
+  .footer--social-media-item {
+    display: inline-block;
+    margin-bottom: 10px; } }
