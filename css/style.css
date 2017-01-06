@@ -297,6 +297,61 @@
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/banner.png) no-repeat center center;
   background-size: cover; }
 
+/* OPINION */
+.opinions {
+  margin: 60px 0 100px 0; }
+
+.opinion {
+  position: relative;
+  margin: 0 40px 40px 40px; }
+
+@media screen and (max-width: 576px) {
+  .opinion {
+    margin: 0 10px 40px 10px; }
+  .opinions {
+    margin-bottom: 30px; } }
+
+.opinion::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.opinion-comment-box {
+  background-color: #f5f5f5;
+  padding: 10px; }
+
+.shape {
+  padding: 2px; }
+
+.opinion-triangle {
+  position: relative;
+  top: -2px;
+  padding: 0;
+  margin: 0;
+  margin-left: 25px; }
+
+.opinion-person-box {
+  margin-top: 5px; }
+
+.opinion-person-box-content {
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px; }
+
+.opinion-person-box-photo {
+  float: left; }
+
+.opinion-person-box-name {
+  padding-left: 3px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000; }
+
+.opinion-person-box-pos {
+  margin: 0; }
+
 input {
   display: block;
   width: 100%;
