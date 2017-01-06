@@ -182,6 +182,75 @@
   .jumbotron .row {
     margin: 0; } }
 
+.social-bar {
+  padding: 10px;
+  background-color: #ffffff;
+  border-bottom: 2px solid #b7b7b7; }
+
+.social-bar::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.social-bar--icons {
+  display: block;
+  width: 60%;
+  float: right;
+  text-align: right; }
+
+.social-bar--icon {
+  color: #cccccc;
+  display: inline-block;
+  padding: 20px; }
+
+.social-bar--icon:hover {
+  color: #aaaaaa; }
+
+.social-bar--info {
+  margin-top: 10px;
+  width: 30%;
+  float: left; }
+
+.social-bar--info-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin: 0; }
+
+.social-bar--info-text {
+  margin: 0;
+  padding-top: 5px; }
+
+@media screen and (max-width: 1200px) {
+  .social-bar--icons {
+    text-align: center;
+    width: 100%; }
+  .social-bar--icon {
+    font-size: 10px; }
+  .social-bar--info {
+    display: none; } }
+
+@media screen and (max-width: 768px) {
+  .social-bar--icon {
+    font-size: 9px; } }
+
+@media screen and (max-width: 576px) {
+  .social-bar--icon {
+    font-size: 7px; } }
+
+@media screen and (max-width: 520px) {
+  .social-bar--icon {
+    font-size: 6px; } }
+
+@media screen and (max-width: 492px) {
+  .social-bar--icon {
+    font-size: 5px; } }
+
+@media screen and (max-width: 466px) {
+  .social-bar--icon {
+    font-size: 8px; } }
+
 /* SERVICES */
 .services {
   margin: 0;
