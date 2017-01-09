@@ -1,0 +1,35 @@
+.pic-sec {
+  padding: 100px 0 100px 0; }
+
+.pic-sec::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.pic-sec--header {
+  margin: 0 0 40px 0;
+  font-size: 18px;
+  text-align: left; }
+
+.pic-sec--header::after {
+  display: block;
+  margin-top: 20px;
+  content: "";
+  width: 80px;
+  border-bottom: 2px solid #ff8b38; }
+
+.pic-sec--pic {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto; }
+
+@media screen and (max-width: 992px) {
+  .pic-sec--pic {
+    margin-top: 70px; } }
+
+@media screen and (max-width: 576px) {
+  .pic-sec--pic {
+    width: 95%; } }

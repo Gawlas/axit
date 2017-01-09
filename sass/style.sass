@@ -1,64 +1,18 @@
 /* BEM */
 /* block-name--element-name__modifier */
 @import 'variables'
+@import 'main'
 @import 'button'
 @import 'nav'
 @import 'jumbotron'
 @import 'social-bar'
+@import 'tabs'
+@import 'list'
+@import 'pic-sec'
 @import 'services'
 @import 'banner'
+@import 'prices'
 @import 'opinion'
 @import 'contact'
 @import 'footer'
-
-body
-  @include font-normal
-  min-height: 2500px
-  margin-top: 40px
-  line-height: 1.5
-
-section
-  padding: 10px
-
-.layout-main
-  background-color: #ffffff
-
-.layout-sec
-  background-color: #f5f5f5
-
-
-.heading-main
-  margin-top: 100px
-  @include font-heading
-  text-transform: uppercase
-  text-align:  center
-
-@media screen and (max-width: 576px)
-  .heading-main
-    margin-top: 50px
-
-.heading-main__rev
-  margin-top: 20px
-  color: #ffffff
-
-.heading-main::after
-  display: block
-  margin: auto
-  margin-top: 20px
-  content: ""
-  width: 80px
-  border-bottom: 2px solid #ff8b38
-  text-align: center
-
-.heading-main__rev::after
-  border-bottom: 2px solid #ffffff
-
-.heading-main--desc
-  text-align: center
-
-.heading-main--desc__rev
-  color: #ffffff
-
-.heading-sec
-  @include font-heading-sec
-  text-align: center
+@import 'pic-pos'
